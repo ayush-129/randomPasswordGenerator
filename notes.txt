@@ -1,0 +1,15 @@
+useCallback:
+it is used for memoization.
+it optimizes the code.
+it is not compulsory to use always the 'useCallback' hook
+here, we want to call passwordGenerator when number is clicked or when chracters is clicked or when length is changed.... so, we want to call same function as our need.
+useCallback is the optimized way of doing this.
+dependency array says any change in these parameters and keep them in cache memory.i.e, memoization.
+
+useEffect:
+it runs the code when we refresh the page or length/numberAllowed/characterAllowed is changed.
+here this hook basically runs the code.
+
+useRef:
+While clicking on copy there are many things on screen like length/numbers/characters but we want to copy the password field only.
+so, we will use 'useRef' hook for input password field only.
